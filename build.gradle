@@ -38,7 +38,7 @@ project.ext {
 	log("  project.version: '" + project.version + "'")
 	log("  rootProject: " + rootProject)
 	
- 	buildQualifier = getBuildQualifier()
+ 	buildQualifier = "x"
  	buildVersion = getBuildVersion()
 	isReleaseVersion = !rootProject.version.endsWith("SNAPSHOT")
 	
